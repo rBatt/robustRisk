@@ -7,7 +7,7 @@ An R package and analysis to understand whether the robustness of ecological com
  2. Redundancy
  3. Diversity
  
-### Classes of Risk  
+### Classes of Risk:  
  1. Contagion
  2. Fat tails
  3. Collapse

@@ -1,9 +1,25 @@
 Package: robustRisk
-Title: What the Package Does (one line, title case)
+Title: Do network properties predict community robustness to risk?
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-Depends: R (>= 3.3.0)
-License: What license is it under?
+Authors@R: c(person(given="Ryan D.", family="Batt", email="battrd@gmail.com", role=c("aut","cre")),
+	person(given="Liliana", family="Salvador", email="Liliana.Salvador@glasgow.ac.uk", role=c("aut")),
+	person(given="Anieke", family="van Leeuwen", email="aleeuwen@princeton.edu", role=c("aut")))
+Description: Analayzed long-term ecological data to build community networks,
+    define network characteristics, and test for evidence of risk susceptibility in
+    those networks.
+Depends:
+    R (>= 3.3.0),
+    data.table
+License: MPL-2.0
 Encoding: UTF-8
 LazyData: true
+Imports:
+    trawlData,
+    trawlDiversity,
+    igraph,
+    rbLib,
+    stats,
+    methods
+Suggests:
+    reshape2
+RoxygenNote: 5.0.1
